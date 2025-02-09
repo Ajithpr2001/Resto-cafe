@@ -15,9 +15,6 @@ const Dashboard = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-        //   const response = await axios.get(
-        //     "https://zartek-task.vercel.app/api/resto-cafe"
-        //   );
         const response = await api.get("/resto-cafe");
           console.log(response.data.data)
           setData(response.data.data);

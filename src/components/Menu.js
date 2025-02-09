@@ -77,12 +77,7 @@ const Menu = ({ items, setCartCount }) => {
             </div>
           </div>
 
-            {/* Calories */}
-          {/* <div className="text-right">
-            <p className="text-gray-500">{dish.dish_calories} calories</p>
-          </div> */}
-
-          {/* Dish Image */}
+           
 
           {dish.dish_image && (
             <img
