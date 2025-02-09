@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import Menu from "../components/Menu";
 import { TabView, TabPanel } from "primereact/tabview";
 import { Badge } from "primereact/badge";
