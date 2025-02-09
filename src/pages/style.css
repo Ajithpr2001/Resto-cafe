@@ -1,0 +1,9 @@
+li {
+    border: none;
+  }
+  
+  /* Make the selected tab red */
+  .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    color: red !important;
+    border-bottom: 2px solid red !important;
+  }
